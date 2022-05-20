@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="index.js" defer></script>
+
+    <header>
+        <h1>Clackulator</h1>
+    </header>
+
+    <main>
+        <div id="content">
+            <div id="display">
+                <div id="input"></div>
+                <div id="current">0</div>
+            </div>
+
+            <div id="numpad">
+                <button class="num-button" data-value="7">7</button>
+                <button class="num-button" data-value="8">8</button>
+                <button class="num-button" data-value="9">9</button>
+                <button class="op-button" data-value="divide">/</button>
+
+                <button class="num-button" data-value="4">4</button>
+                <button class="num-button" data-value="5">5</button>
+                <button class="num-button" data-value="6">6</button>
+                <button class="op-button" data-value="multiply">x</button>
+
+                <button class="num-button" data-value="1">1</button>
+                <button class="num-button" data-value="2">2</button>
+                <button class="num-button" data-value="3">3</button>
+                <button class="op-button" data-value="subtract">-</button>
+
+                <button class="num-button" data-value="0">0</button>
+                <button id='clear' class="op-button" data-value="clear">C</button>
+                <button class="op-button" data-value="equals">=</button>
+                <button class="op-button" data-value="add">+</button>
+            </div>
+        </div>
+    </main>
+
+    
+    <footer>
+        <p>Copyright © 2022 crisxchan</p>
+        <a href="https://github.com/crisxchan " target="_blank">
+            <i class="fa fa-github ghlogo" aria-hidden="true"></i>
+        </a>
+    </footer>
+</body>
+</html>
